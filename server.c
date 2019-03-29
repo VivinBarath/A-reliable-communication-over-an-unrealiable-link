@@ -41,7 +41,7 @@ void print_ack_array(){
 	
 	if(count2 == array_len+1)
 		exit(0);
-		count2=0;
+	count2=0;
 	/*if(count2==array_len){
 		printf("Count : %d",count2);		
 		exit(0);
