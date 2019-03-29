@@ -32,4 +32,4 @@ To implement each MRP socket, we use the following:
   Thus, if more than one MRP socket is created, one set of socket-thread-tables as above
   will be created for each MRP socket. The threads are killed and the data structures freed
   when the MRP socket is closed. You can assume that the maximum number of MRP
-  sockets that can be opened is 25.
+  sockets that can be opened is 25
